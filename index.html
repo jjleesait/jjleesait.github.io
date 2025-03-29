@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./styles/style.css">
         <title>
-            Lab 1
+            Lab 2
         </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
         <!-- This is the heading -->
-        <h1 id="maintop">Jimin Kim's Homepage</h1>
+        <h1 id="maintop">STUDYRO2M by JIMIN KIM</h1>
+        <div>
         <!-- This is the navigation -->
         <nav>
             <ul>
-                <li>
+                <li class="navi1">
                     <a href="index.html">Home</a>
                 </li>
-                <li>
-                    <a href="https://www.sait.ca">My School</a>
+                <li class="navi1">
+                    <a href="studyro2m_bulletin.html">Bulletin</a>
                 </li>
-                <li>
-                    <a href="mailto: jungjoon.lee@edu.sait.ca">Contact Me</a>
+                <li class="navi1">
+                    <a href="studyro2m_html.html">HTML</a>
+                </li>                
+                <li class="navi1">
+                    <a href="studyro2m_css.html">CSS</a>
                 </li>
-                <li>
-                    <a href="tel: 587-555-5555">Call Me</a>
+                <li class="navi1">
+                    <a href="studyro2m_javascript.html">JAVASCRIPT</a>
+
+                <li class="navi1">
+                    <a href="mailto: jungjoon.lee@edu.sait.ca">CONTACT US</a>
+                </li>
+                <li class="navi1">
+                    <a href="tel: 587-555-5555">CALL US</a>
                 </li>
             </ul>
         </nav>
+    </div>
         <!-- This is the second heading -->
-        <h2>About Me</h2>
-        <div>
-            <img src="pexels-moh-adbelghaffar-771742.jpg" alt="This is me, Jimin Kim" width="200" height="300">
+        <br><br>
+        <h2>About Us</h2>
         <!-- This is blocked -->
-        </div>
+        <div>
             <!-- This is a paragraph that has an inline tag -->
-            <p>
-                Hello! I am <span style="border: 1px solid rgb(135, 133, 133)">Jimin Kim</span>! Right now you're on my html webpage. Take a look around, and I hope you'll enjoy your stay! And click this <a href="https://sait.ca">link</a> if you want to check out my school too.
+            <p class="about">
+                Welcome to <a href="studyro2m.html">STUDYRO2M</a>, a place where you can study html/css/javascript and help one another fellow learners like me when there are challenges. It is a community you can contribute and count on.
+                <br><br> Originally conceived as a personal website that tracked my progress as a learner, it has now been renewed as 'STUDYRO2M' as the increasing size of the community demanded that it takes a priority.
+            </p>
+        </div>
+        <h2>Our Schedule</h2>
+
+        <br><br><br><br><h3>About 'Me'</h3>
+        <p>
+            <img id="profile1" src="pexels-moh-adbelghaffar-771742.jpg" alt="This is me, Jimin Kim">
+            <div class="profile1">
+                Hello! My name is <span style="text-decoration: red wavy underline;">Jimin Kim</span>! Right now you're on STUDYRO2M, or what used to be my webpage! 
+                <br><br>Ever since a year has passed, and I said then that I hoped to make my webpage a legitimate website that can be a proper business someday; well, here it is, thanks to all of guys and all the support!
+                <br><br>Some of my practices from the very beginning have been left behind forming the frontpage of this business! I myself did not expect that to be the case, but so many of you guys insisted on keeping them not only for their sentimental value (I hope not!) but also for a taste of personal touch which is so unique to this peculiar html/css/javascript learning website.
+                So there you have it, and don't be embarassed because I am!
+                <br><br>And please again, take a look around, and 'I hope you'll enjoy your stay'! 
             </p>
         </div>
         <!-- This is a third heading-->
@@ -56,6 +83,12 @@
             <li>Cooking</li>
             <li>Enough Sleep</li>
         </ol>
+        <h3>Haiku</h3>
+        <p class="haiku"><br>
+        Codes myriad flow like a stream,<br><br>
+        Tags and styles intertwine,<br><br>
+        Scripts conduct life to screens.<br>
+        </p>
         <h3>A Table to Keep Track of My Homework</h3>
         <!-- This is a table -->
             <table>
@@ -65,7 +98,7 @@
                 <th>Week 3</th>
                 <th>Week 4</th>
             <tr>
-                <td><i>Weeks I've done homework on March 2025&nbsp;</i></td>
+                <td><i>Weeks I've done homework on March 2024&nbsp;</i></td>
                 <td>Yes</td>
                 <td>No</td>
                 <td>Yes</td>
@@ -74,7 +107,7 @@
         </table>
 
         <br><br><br><br><br><br>
-        <h3>References</h3>
+        <h3 class="references">References</h3>
         <div>
             "Man in Black Jacket" by mohamed abdelghaffar under Pexels License. 
 https://www.pexels.com/photo/man-in-black-jacket-771742/"
