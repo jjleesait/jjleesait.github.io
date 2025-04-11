@@ -1,3 +1,5 @@
+
+
 /* this is a html element */
 h1 {
     font-size: 300%;
@@ -103,37 +105,10 @@ body {
 /* this is a min-device-width responsiveness for background */
 @media screen and (min-device-width: 400px) {
 body {
-  background-color: white;
+  background-color: black;
  }
 }
 
-.table1, .table1th, .table1tr, .table1td {
-    border: 2px solid green;
-    border-collapse: collapse;
-    padding: 10px;
-
-}
-
-.table1th {
-    background-color: rgb(32, 160, 32);
-}
-
-
-
-
-.javascriptsection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-#hoverButton1, #hoverButton2 {
-    background-color: #2E1402;
-    color: #F3C197;
-
-}
 
 
 

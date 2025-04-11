@@ -2,13 +2,14 @@
 <html>
     <head>
         <title>
-            Lab 2
+            Lab 3
         </title>
         <!-- This is a Google Font link for Garamond font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" id="css" href="styles/style.css">
+    <script src="script/script.js"></script>
     </head>
     <body>
         <!-- This is the heading -->
@@ -35,10 +36,10 @@
                     <a href="studyro2m_javascript.html">JAVASCRIPT</a>
 
                 <li class="navi1">
-                    <a href="mailto: jungjoon.lee@edu.sait.ca">CONTACT US</a>
+                    <a href="mailto: jimin.kim@edu.sait.ca">CONTACT US</a>
                 </li>
                 <li class="navi1">
-                    <a href="tel: 587-555-5555">CALL US</a>
+                    <a href="tel: 403-555-5555">CALL US</a>
                 </li>
                 <li class="navi1">
                     <a href="">Responsiveness</a>
@@ -78,6 +79,28 @@
 
         <hr class="linebreak1">
 
+        <div class="javascriptsection">
+
+            <button id="AlertMe" onclick="showMessage()">Click Here to See My Message</button>
+
+            <button id="hoverButton1" class="hoverButton1" onmouseover="changeColor()" onmouseleave="revertColor()">Hover Here to Change Button Colors</button>
+            <button id="hoverButton2" onmouseover="changeColor()" onmouseleave="revertColor()">Hover Also Here to Change Button Colors</button>
+
+            <button id="buttonCounter" onclick="increment()">Click to Charge Your Luck!</button>
+            <p id="counter">Luck Charge: 0</p>
+
+
+
+
+
+            <div id="container"></div>
+
+
+
+
+
+        </div>
+        <hr class="linebreak1">
         <br><h3>About 'Me'</h3>
         <p>
             <img id="profile1" src="pexels-photo-9385363.webp" alt="This is me, Jimin Kim">
@@ -119,18 +142,18 @@
         
         <h3>A Table to Keep Track of My Homework</h3>
         <!-- This is a table -->
-            <table>
-                <th></th>
-                <th>Week 1</th>
-                <th>Week 2</th>
-                <th>Week 3</th>
-                <th>Week 4</th>
-            <tr>
-                <td><i>Weeks I've done homework on March 2024&nbsp;</i></td>
-                <td>Yes</td>
-                <td>No</td>
-                <td>Yes</td>
-                <td>No</td>
+            <table class="table1">
+                <th class="table1th"></th>
+                <th class="table1th">Week 1</th>
+                <th class="table1th">Week 2</th>
+                <th class="table1th">Week 3</th>
+                <th class="table1th">Week 4</th>
+            <tr class="table1tr">
+                <td class="table1td"><i>Weeks I've done homework on March 2024&nbsp;</i></td>
+                <td class="table1td">Yes</td>
+                <td class="table1td">No</td>
+                <td class="table1td">Yes</td>
+                <td class="table1td">No</td>
             </tr>            
         </table>
 
