@@ -64,8 +64,10 @@ document.getElementById("container").innerHTML = text;
 /* buttons to change the photo between a cat and a dog */
 function changeToDog() {
     document.getElementById("pet").src = "https://images.pexels.com/photos/169524/pexels-photo-169524.jpeg"
+    document.getElementById("pet").alt = "My Dog Anna"
 }
 
 function changeToCat() {
     document.getElementById("pet").src = "https://images.pexels.com/photos/96938/pexels-photo-96938.jpeg"
+    document.getElementById("pet").alt = "My Cat Browny"
 }
