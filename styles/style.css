@@ -139,3 +139,15 @@ body {
     width: 40%;
 }
 
+.css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#css {
+    background-color: black;
+    color: #95ff00;
+    font-size: 100%;
+    border-color: #4e9fb7;
+}

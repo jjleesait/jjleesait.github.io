@@ -71,3 +71,16 @@ function changeToCat() {
     document.getElementById("pet").src = "https://images.pexels.com/photos/96938/pexels-photo-96938.jpeg"
     document.getElementById("pet").alt = "My Cat Browny"
 }
+
+/* a button to change the theme to dark view */
+function changeTheme() {
+    document.getElementById("css").href = "styles/style2.css"
+}
+
+
+ let text = "";
+for (let i = 0; i < 7; i = i++) 
+{
+    text += " I cannot say this enough, Good job Team x " + i + ".";
+}
+document.getElementById("container").innerHTML = text;
