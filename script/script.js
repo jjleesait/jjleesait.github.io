@@ -1,4 +1,4 @@
-/* This has a function keyword with a showMessage identifier and alerts*/
+/* This has a function keyword with a showMessage identifier and alerts */
 function showMessage() {
     alert("Hope");
     alert("You");
@@ -21,6 +21,7 @@ function revertColor() {
     document.getElementById("hoverButton2").style.color = "#EFE8DC";
 }
 
+/* This is a for loop function for a button */
 function showMessagee() {
     let sum = 0;
     for (let i = 1; i<=100; i = i+1)
@@ -28,7 +29,7 @@ function showMessagee() {
         sum = sum + i;
     }
     alert(sum);
-    }
+}
 
 /* This is a counter with an increment and 'if-else' statement*/
 let count = 0;
@@ -50,17 +51,6 @@ else {
 
 }
 
-
-/* Loop did not work in this part so I tried using loop in other parts */
-/* let text = "";
-for (let i = 0; i < 7; i = i++) 
-{
-    text += " I cannot say this enough, Good job Team x " + i + ".";
-}
-document.getElementById("container").innerHTML = text;
- */
-
-
 /* buttons to change the photo between a cat and a dog */
 function changeToDog() {
     document.getElementById("pet").src = "https://images.pexels.com/photos/169524/pexels-photo-169524.jpeg"
@@ -77,10 +67,12 @@ function changeTheme() {
     document.getElementById("css").href = "styles/style2.css"
 }
 
-
+/* Loop did not work in this part so I tried using loop in other parts */
+/* 
  let text = "";
 for (let i = 0; i < 7; i = i++) 
 {
     text += " I cannot say this enough, Good job Team x " + i + ".";
 }
 document.getElementById("container").innerHTML = text;
+ */
